@@ -1,0 +1,6686 @@
+{
+ "data_processing": {
+  "xml_to_canonical": 1.0,
+  "canonical_to_chunk": 1.0,
+  "canonical_to_parent": 1.0,
+  "xml_leaves": 373,
+  "canonical_leaves": 373,
+  "chunks": 271,
+  "chunk_id_collisions": 0,
+  "point_id_collisions": 0,
+  "qdrant_points": 271,
+  "qdrant_missing": 0
+ },
+ "configs": {
+  "dense": {
+   "rows": [
+    {
+     "id": "q01",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.5,
+     "ndcg10": 0.5,
+     "ndcg5_child": 0.31564845247951456,
+     "ndcg10_child": 0.35659643859662626,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 0.3333333333333333,
+     "hit": {
+      "1": false,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q02",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      }
+     }
+    },
+    {
+     "id": "q03",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.830419897363192,
+     "ndcg10_child": 0.8899541168509599,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q04",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 0.7967610662472991,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      }
+     }
+    },
+    {
+     "id": "q05",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.3391602052736162,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q06",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.6309297535714575,
+     "ndcg10": 0.6309297535714575,
+     "ndcg5_child": 0.4414924137367808,
+     "ndcg10_child": 0.4414924137367808,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 0.5,
+     "hit": {
+      "1": false,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q07",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.43067655807339306,
+     "ndcg10": 0.43067655807339306,
+     "ndcg5_child": 0.0,
+     "ndcg10_child": 0.13012668333070057,
+     "ctx_cov": 0.0,
+     "ctx_full": false,
+     "rr10": 0.14285714285714285,
+     "hit": {
+      "1": false,
+      "3": false,
+      "5": false,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.0,
+       "full": false,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 0.0,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q08",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 0.8301054527851841,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q09",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.6309297535714575,
+     "ndcg10": 0.6309297535714575,
+     "ndcg5_child": 0.0,
+     "ndcg10_child": 0.1671604549662023,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 0.16666666666666666,
+     "hit": {
+      "1": false,
+      "3": false,
+      "5": false,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q10",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3903800499921017,
+     "ndcg10_child": 0.5078961547485289,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q11",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.5855700749881525,
+     "ndcg10_child": 0.5855700749881525,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q12",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.3391602052736162,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q13",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.7365896932159578,
+     "ndcg10_child": 0.7365896932159578,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q14",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.6309297535714575,
+     "ndcg10": 0.6309297535714575,
+     "ndcg5_child": 0.4144299250118475,
+     "ndcg10_child": 0.5319460297682747,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 0.5,
+     "hit": {
+      "1": false,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q15",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.0,
+     "ndcg10": 0.0,
+     "ndcg5_child": 0.0,
+     "ndcg10_child": 0.0,
+     "ctx_cov": 0.0,
+     "ctx_full": false,
+     "rr10": 0.0,
+     "hit": {
+      "1": false,
+      "3": false,
+      "5": false,
+      "10": false
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.0,
+       "full": false,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 0.0,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 0.0,
+       "full": false,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 0.0,
+       "full": false,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q16",
+     "type": "일반인표현",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.5437713091520254,
+     "ndcg10": 0.5437713091520254,
+     "ndcg5_child": 0.1312050775123418,
+     "ndcg10_child": 0.15457433957839825,
+     "ctx_cov": 0.5,
+     "ctx_full": false,
+     "rr10": 0.2,
+     "hit": {
+      "1": false,
+      "3": false,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q17",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q18",
+     "type": "숫자벌칙",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q19",
+     "type": "숫자벌칙",
+     "n_gold": 2,
+     "recall20": 0.5,
+     "recall30": 0.5,
+     "recall20_art": 0.5,
+     "recall30_art": 0.5,
+     "ndcg5": 0.3065735963827292,
+     "ndcg10": 0.3065735963827292,
+     "ndcg5_child": 0.15101961822780524,
+     "ndcg10_child": 0.15101961822780524,
+     "ctx_cov": 0.5,
+     "ctx_full": false,
+     "rr10": 0.2,
+     "hit": {
+      "1": false,
+      "3": false,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q20",
+     "type": "숫자벌칙",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.43067655807339306,
+     "ndcg10": 0.43067655807339306,
+     "ndcg5_child": 0.38685280723454163,
+     "ndcg10_child": 0.38685280723454163,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 0.2,
+     "hit": {
+      "1": false,
+      "3": false,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 0.0,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q21",
+     "type": "숫자벌칙",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.6131471927654584,
+     "ndcg10": 0.6131471927654584,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.3391602052736162,
+     "ctx_cov": 0.5,
+     "ctx_full": false,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q22",
+     "type": "숫자벌칙",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q23",
+     "type": "복합",
+     "n_gold": 3,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 0.9363792118010482,
+     "ctx_cov": 0.3333333333333333,
+     "ctx_full": false,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.3333333333333333,
+       "full": false,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q24",
+     "type": "복합",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q25",
+     "type": "복합",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.6131471927654584,
+     "ndcg10": 0.6131471927654584,
+     "ndcg5_child": 0.8687949224876583,
+     "ndcg10_child": 0.5637884576902256,
+     "ctx_cov": 0.5,
+     "ctx_full": false,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q26",
+     "type": "복합",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      }
+     }
+    },
+    {
+     "id": "q27",
+     "type": "복합",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q28",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.6309297535714575,
+     "ndcg10": 0.6309297535714575,
+     "ndcg5_child": 0.6309297535714574,
+     "ndcg10_child": 0.6309297535714574,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 0.5,
+     "hit": {
+      "1": false,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q29",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      }
+     }
+    },
+    {
+     "id": "q30",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      }
+     }
+    },
+    {
+     "id": "q31",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.7860137352654726,
+     "ndcg10_child": 0.643121141594021,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q32",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q33",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.9469024295259745,
+     "ndcg10_child": 0.9469024295259745,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q34",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      }
+     }
+    },
+    {
+     "id": "q35",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q36",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    }
+   ],
+   "oos_scores": [],
+   "oos": [],
+   "llm_calls": 0
+  },
+  "dense+rerank": {
+   "rows": [
+    {
+     "id": "q01",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 0.8701249883466592,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q02",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.8687949224876583,
+     "ndcg10_child": 0.914856882358379,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      }
+     }
+    },
+    {
+     "id": "q03",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.5711601909662336,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q04",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.7227265726449518,
+     "ndcg10_child": 0.7564477297898765,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      }
+     }
+    },
+    {
+     "id": "q05",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.3391602052736162,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q06",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.6366824387328316,
+     "ndcg10_child": 0.6366824387328316,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q07",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3903800499921017,
+     "ndcg10_child": 0.3903800499921017,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q08",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 0.9888026041880242,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q09",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.4692787260227565,
+     "ndcg10_child": 0.4692787260227565,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q10",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.9558295932317544,
+     "ndcg10_child": 0.9558295932317544,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q11",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.6366824387328316,
+     "ndcg10_child": 0.6366824387328316,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q12",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.3391602052736162,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q13",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.75369761125927,
+     "ndcg10_child": 0.75369761125927,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q14",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.8048099750039491,
+     "ndcg10_child": 0.8048099750039491,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q15",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.6309297535714575,
+     "ndcg10": 0.6309297535714575,
+     "ndcg5_child": 0.21398626473452756,
+     "ndcg10_child": 0.13886244387355454,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 0.5,
+     "hit": {
+      "1": false,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q16",
+     "type": "일반인표현",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.6843515475204855,
+     "ndcg10_child": 0.44409732781325567,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q17",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q18",
+     "type": "숫자벌칙",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q19",
+     "type": "숫자벌칙",
+     "n_gold": 2,
+     "recall20": 0.5,
+     "recall30": 0.5,
+     "recall20_art": 0.5,
+     "recall30_art": 0.5,
+     "ndcg5": 0.6131471927654584,
+     "ndcg10": 0.6131471927654584,
+     "ndcg5_child": 0.6366824387328316,
+     "ndcg10_child": 0.6366824387328316,
+     "ctx_cov": 0.5,
+     "ctx_full": false,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q20",
+     "type": "숫자벌칙",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.6309297535714575,
+     "ndcg10": 0.6309297535714575,
+     "ndcg5_child": 0.6309297535714574,
+     "ndcg10_child": 0.6309297535714574,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 0.5,
+     "hit": {
+      "1": false,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q21",
+     "type": "숫자벌칙",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.7227265726449518,
+     "ndcg10_child": 0.7227265726449518,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q22",
+     "type": "숫자벌칙",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q23",
+     "type": "복합",
+     "n_gold": 3,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.7653606369886217,
+     "ndcg10": 0.7653606369886217,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 0.3333333333333333,
+     "ctx_full": false,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.3333333333333333,
+       "full": false,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q24",
+     "type": "복합",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q25",
+     "type": "복합",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.9197207891481876,
+     "ndcg10": 0.9197207891481876,
+     "ndcg5_child": 0.830419897363192,
+     "ndcg10_child": 0.6172839611614818,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q26",
+     "type": "복합",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      }
+     }
+    },
+    {
+     "id": "q27",
+     "type": "복합",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.830419897363192,
+     "ndcg10_child": 0.8899541168509599,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q28",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q29",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      }
+     }
+    },
+    {
+     "id": "q30",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      }
+     }
+    },
+    {
+     "id": "q31",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.8539316501572936,
+     "ndcg10_child": 0.9052116356304492,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q32",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q33",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.9060254355346824,
+     "ndcg10_child": 0.9060254355346824,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q34",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      }
+     }
+    },
+    {
+     "id": "q35",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.6366824387328316,
+     "ndcg10_child": 0.8988898126139722,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q36",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    }
+   ],
+   "oos_scores": [
+    10,
+    10,
+    10,
+    7,
+    8,
+    1,
+    3,
+    1,
+    10
+   ],
+   "oos": [
+    {
+     "id": "q37",
+     "score": 10,
+     "top_article": "제35조"
+    },
+    {
+     "id": "q38",
+     "score": 10,
+     "top_article": "제2조"
+    },
+    {
+     "id": "q39",
+     "score": 10,
+     "top_article": "제43조"
+    },
+    {
+     "id": "q40",
+     "score": 7,
+     "top_article": "제2조"
+    },
+    {
+     "id": "q41",
+     "score": 8,
+     "top_article": "제16조"
+    },
+    {
+     "id": "q42",
+     "score": 1,
+     "top_article": "제15조"
+    },
+    {
+     "id": "q43",
+     "score": 3,
+     "top_article": "제18조"
+    },
+    {
+     "id": "q44",
+     "score": 1,
+     "top_article": "제6조"
+    },
+    {
+     "id": "q45",
+     "score": 10,
+     "top_article": "제21조"
+    }
+   ],
+   "llm_calls": 0
+  },
+  "hybrid": {
+   "rows": [
+    {
+     "id": "q01",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.43067655807339306,
+     "ndcg10": 0.43067655807339306,
+     "ndcg5_child": 0.14606834984270647,
+     "ndcg10_child": 0.30306164500156685,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 0.25,
+     "hit": {
+      "1": false,
+      "3": false,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 0.0,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q02",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.7860137352654726,
+     "ndcg10_child": 0.7241528458281338,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      }
+     }
+    },
+    {
+     "id": "q03",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.5087403079104242,
+     "ndcg10_child": 0.3995688713838976,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q04",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.639945385422766,
+     "ndcg10_child": 0.7663491917568948,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      }
+     }
+    },
+    {
+     "id": "q05",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.3391602052736162,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      }
+     }
+    },
+    {
+     "id": "q06",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.5855700749881525,
+     "ndcg10_child": 0.8547529378296287,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q07",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.5,
+     "ndcg10": 0.5,
+     "ndcg5_child": 0.19519002499605084,
+     "ndcg10_child": 0.19519002499605084,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 0.3333333333333333,
+     "hit": {
+      "1": false,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q08",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 0.9120345678990496,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q09",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.4692787260227565,
+     "ndcg10_child": 0.4692787260227565,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q10",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3903800499921017,
+     "ndcg10_child": 0.5032251913410369,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q11",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.5855700749881525,
+     "ndcg10_child": 0.5855700749881525,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q12",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.3391602052736162,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q13",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.5585075862632192,
+     "ndcg10_child": 0.6975637657739948,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q14",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.75369761125927,
+     "ndcg10_child": 0.75369761125927,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q15",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.22009176629808017,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q16",
+     "type": "일반인표현",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.6131471927654584,
+     "ndcg10": 0.8175295903539445,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.28371255449703187,
+     "ctx_cov": 0.5,
+     "ctx_full": false,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q17",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q18",
+     "type": "숫자벌칙",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q19",
+     "type": "숫자벌칙",
+     "n_gold": 2,
+     "recall20": 0.5,
+     "recall30": 0.5,
+     "recall20_art": 0.5,
+     "recall30_art": 0.5,
+     "ndcg5": 0.2640681225725909,
+     "ndcg10": 0.2640681225725909,
+     "ndcg5_child": 0.15101961822780524,
+     "ndcg10_child": 0.15101961822780524,
+     "ctx_cov": 0.5,
+     "ctx_full": false,
+     "rr10": 0.2,
+     "hit": {
+      "1": false,
+      "3": false,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 0.0,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q20",
+     "type": "숫자벌칙",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.6309297535714575,
+     "ndcg10": 0.6309297535714575,
+     "ndcg5_child": 0.6309297535714574,
+     "ndcg10_child": 0.6309297535714574,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 0.5,
+     "hit": {
+      "1": false,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q21",
+     "type": "숫자벌칙",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.830419897363192,
+     "ndcg10_child": 0.830419897363192,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q22",
+     "type": "숫자벌칙",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q23",
+     "type": "복합",
+     "n_gold": 3,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 0.6666666666666666,
+     "ctx_full": false,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.6666666666666666,
+       "full": false,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q24",
+     "type": "복합",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.9469024295259745,
+     "ndcg10_child": 0.9469024295259745,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q25",
+     "type": "복합",
+     "n_gold": 2,
+     "recall20": 0.5,
+     "recall30": 1.0,
+     "recall20_art": 0.5,
+     "recall30_art": 1.0,
+     "ndcg5": 0.6131471927654584,
+     "ndcg10": 0.6131471927654584,
+     "ndcg5_child": 0.639945385422766,
+     "ndcg10_child": 0.48864468918810133,
+     "ctx_cov": 0.5,
+     "ctx_full": false,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q26",
+     "type": "복합",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      }
+     }
+    },
+    {
+     "id": "q27",
+     "type": "복합",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q28",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q29",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      }
+     }
+    },
+    {
+     "id": "q30",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q31",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.830419897363192,
+     "ndcg10_child": 0.7542686714597936,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q32",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q33",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.9060254355346824,
+     "ndcg10_child": 0.9060254355346824,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q34",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q35",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q36",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": null,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    }
+   ],
+   "oos_scores": [],
+   "oos": [],
+   "llm_calls": 0
+  },
+  "hybrid+rerank": {
+   "rows": [
+    {
+     "id": "q01",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 0.8701249883466592,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q02",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.7227265726449518,
+     "ndcg10_child": 0.8200685179888282,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      }
+     }
+    },
+    {
+     "id": "q03",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.5087403079104242,
+     "ndcg10_child": 0.33013764944712026,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q04",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.6548086577531307,
+     "ndcg10_child": 0.7759944384848244,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      }
+     }
+    },
+    {
+     "id": "q05",
+     "type": "정의",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.3391602052736162,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      }
+     }
+    },
+    {
+     "id": "q06",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.9828920819566878,
+     "ndcg10_child": 0.9828920819566878,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q07",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3903800499921017,
+     "ndcg10_child": 0.3903800499921017,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q08",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 0.9851514063429596,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q09",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.7653606369886218,
+     "ndcg10_child": 0.7653606369886218,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q10",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.8318724637288825,
+     "ndcg10_child": 0.9550236580992474,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q11",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q12",
+     "type": "의무",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.3391602052736162,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q13",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.8318724637288825,
+     "ndcg10_child": 0.8318724637288825,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q14",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.7365896932159578,
+     "ndcg10_child": 0.7365896932159578,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q15",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.22009176629808017,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q16",
+     "type": "일반인표현",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.8503449055347546,
+     "ndcg10": 0.8503449055347546,
+     "ndcg5_child": 0.3391602052736162,
+     "ndcg10_child": 0.28952298823485745,
+     "ctx_cov": 0.5,
+     "ctx_full": false,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q17",
+     "type": "일반인표현",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q18",
+     "type": "숫자벌칙",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q19",
+     "type": "숫자벌칙",
+     "n_gold": 2,
+     "recall20": 0.5,
+     "recall30": 0.5,
+     "recall20_art": 0.5,
+     "recall30_art": 0.5,
+     "ndcg5": 0.6131471927654584,
+     "ndcg10": 0.6131471927654584,
+     "ndcg5_child": 0.6366824387328316,
+     "ndcg10_child": 0.6366824387328316,
+     "ctx_cov": 0.5,
+     "ctx_full": false,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q20",
+     "type": "숫자벌칙",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.6309297535714575,
+     "ndcg10": 0.6309297535714575,
+     "ndcg5_child": 0.6309297535714574,
+     "ndcg10_child": 0.6309297535714574,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 0.5,
+     "hit": {
+      "1": false,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q21",
+     "type": "숫자벌칙",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q22",
+     "type": "숫자벌칙",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q23",
+     "type": "복합",
+     "n_gold": 3,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 0.9060254355346823,
+     "ndcg10": 0.9060254355346823,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 0.9305687780632227,
+     "ctx_cov": 0.3333333333333333,
+     "ctx_full": false,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.3333333333333333,
+       "full": false,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 0.6666666666666666,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q24",
+     "type": "복합",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q25",
+     "type": "복합",
+     "n_gold": 2,
+     "recall20": 0.5,
+     "recall30": 1.0,
+     "recall20_art": 0.5,
+     "recall30_art": 1.0,
+     "ndcg5": 0.6131471927654584,
+     "ndcg10": 0.6131471927654584,
+     "ndcg5_child": 0.7227265726449518,
+     "ndcg10_child": 0.46900009332067477,
+     "ctx_cov": 0.5,
+     "ctx_full": false,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 0.5,
+       "full": false,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q26",
+     "type": "복합",
+     "n_gold": 2,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 2
+      }
+     }
+    },
+    {
+     "id": "q27",
+     "type": "복합",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q28",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q29",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      }
+     }
+    },
+    {
+     "id": "q30",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q31",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 0.8643145546088337,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 1
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q32",
+     "type": "신설",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.6713860725233042,
+     "ndcg10_child": 0.8194270280062367,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q33",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.9469024295259745,
+     "ndcg10_child": 0.9469024295259745,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q34",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q35",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 0.6366824387328316,
+     "ndcg10_child": 0.7541985434892587,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    },
+    {
+     "id": "q36",
+     "type": "기타",
+     "n_gold": 1,
+     "recall20": 1.0,
+     "recall30": 1.0,
+     "recall20_art": 1.0,
+     "recall30_art": 1.0,
+     "ndcg5": 1.0,
+     "ndcg10": 1.0,
+     "ndcg5_child": 1.0,
+     "ndcg10_child": 1.0,
+     "ctx_cov": 1.0,
+     "ctx_full": true,
+     "rr10": 1.0,
+     "hit": {
+      "1": true,
+      "3": true,
+      "5": true,
+      "10": true
+     },
+     "score": 10,
+     "ctx_select": {
+      "current": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "3": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 3
+      },
+      "4": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 4
+      },
+      "5": {
+       "coverage": 1.0,
+       "full": true,
+       "parents": 5
+      }
+     }
+    }
+   ],
+   "oos_scores": [
+    10,
+    10,
+    10,
+    6,
+    10,
+    1,
+    1,
+    7,
+    0
+   ],
+   "oos": [
+    {
+     "id": "q37",
+     "score": 10,
+     "top_article": "제35조"
+    },
+    {
+     "id": "q38",
+     "score": 10,
+     "top_article": "제2조"
+    },
+    {
+     "id": "q39",
+     "score": 10,
+     "top_article": "제43조"
+    },
+    {
+     "id": "q40",
+     "score": 6,
+     "top_article": "제2조"
+    },
+    {
+     "id": "q41",
+     "score": 10,
+     "top_article": "제16조"
+    },
+    {
+     "id": "q42",
+     "score": 1,
+     "top_article": "제13조"
+    },
+    {
+     "id": "q43",
+     "score": 1,
+     "top_article": "제18조"
+    },
+    {
+     "id": "q44",
+     "score": 7,
+     "top_article": "제6조"
+    },
+    {
+     "id": "q45",
+     "score": 0,
+     "top_article": "제24조"
+    }
+   ],
+   "llm_calls": 0
+  }
+ },
+ "ctx_size_sweep": [
+  {
+   "child_n": 6,
+   "max_parents": 4,
+   "coverage": 0.9490740740740741,
+   "full": 0.8888888888888888,
+   "full_multi": 0.42857142857142855,
+   "avg_parents": 3.0833333333333335
+  },
+  {
+   "child_n": 8,
+   "max_parents": 4,
+   "coverage": 0.9583333333333334,
+   "full": 0.9166666666666666,
+   "full_multi": 0.5714285714285714,
+   "avg_parents": 3.388888888888889
+  },
+  {
+   "child_n": 20,
+   "max_parents": 3,
+   "coverage": 0.9166666666666666,
+   "full": 0.8888888888888888,
+   "full_multi": 0.5714285714285714,
+   "avg_parents": 2.9722222222222223
+  },
+  {
+   "child_n": 20,
+   "max_parents": 4,
+   "coverage": 0.9583333333333334,
+   "full": 0.9166666666666666,
+   "full_multi": 0.5714285714285714,
+   "avg_parents": 3.9166666666666665
+  },
+  {
+   "child_n": 20,
+   "max_parents": 5,
+   "coverage": 0.9583333333333334,
+   "full": 0.9166666666666666,
+   "full_multi": 0.5714285714285714,
+   "avg_parents": 4.777777777777778
+  },
+  {
+   "child_n": 20,
+   "max_parents": 8,
+   "coverage": 0.9722222222222222,
+   "full": 0.9444444444444444,
+   "full_multi": 0.7142857142857143,
+   "avg_parents": 6.861111111111111
+  }
+ ]
+}
