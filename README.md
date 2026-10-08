@@ -276,6 +276,8 @@ curl -X POST localhost:8000/ask -H 'Content-Type: application/json' -d '{"questi
 
 ### 검색 구성 비교 (정답 36문항)
 
+![평가 단계별 비교](docs/images/eval_stages.png)
+
 | 지표 | dense만 | reranking만 | hybrid만 | **hybrid + reranking (운영)** |
 |---|---|---|---|---|
 | nDCG@5 | 0.832 | 0.960 | 0.918 | **0.961** |
@@ -288,6 +290,10 @@ curl -X POST localhost:8000/ask -H 'Content-Type: application/json' -d '{"questi
 - 컨텍스트를 "상위 child 6개"가 아니라 **"상위 조 N개"로 고르면** 근거 확보가 올라간다(reranking만: 0.944 → 0.972). 기본값은 아직 바꾸지 않았다.
 - 약한 유형은 **복합**(근거가 여러 조에 걸침)과 **숫자벌칙**이다.
 
+![컨텍스트 선택 방식별 근거 확보](docs/images/eval_context_select.png)
+
+![질문 유형별 성능](docs/images/eval_by_type.png)
+
 ### 청킹 실험
 
 child 크기를 500자 → **300자**로 낮췄을 때 가장 안정적이었다(art@3 0.951 → 0.976, MRR 0.911 → 0.929, 나빠진 문항 없음). 조당 child 상한과 참조 풀기는 효과가 없어 채택하지 않았다.
@@ -295,6 +301,8 @@ child 크기를 500자 → **300자**로 낮췄을 때 가장 안정적이었다
 ### 답변 거부
 
 - rerank 점수 기준(5점 미만 거부)은 범위 밖 질문 **3/9만** 거른다(정답 질문 오거절 0/36).
+![rerank 점수로 범위 밖 질문 거르기](docs/images/eval_gate.png)
+
 - 주제는 법에 있지만 구체 정보가 없는 질문(과징금 금액 등)은 점수로 못 거르므로 LLM 2차 거부에 맡긴다. **2차 거부와 답변 품질은 아직 평가하지 않았다.**
 
 ### 한계
